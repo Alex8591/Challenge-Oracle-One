@@ -1,0 +1,476 @@
+
+* {
+    box-sizing: border-box;
+    
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container {
+    display: flex;
+    min-width: 1440px;
+    background-color: #f3f5fc;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    height: 1024px;
+
+}
+textarea.inputCript {
+    position: absolute;
+    width: 680px;
+    height: 600px;
+    left: 240px;
+    top: 168px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 32px;
+    line-height: 150%;
+    border: none;
+    color: #0a3871;
+    background: transparent;
+    outline: none;
+
+
+}
+.input {
+    display: flex;
+    flex: 1;
+}
+.button {
+    display: flex;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 885px;
+}
+.cripto {
+    display: flex;
+    align-items: flex-start;
+    padding: 24px;
+    position: static;
+    width: 328px;
+    height: 67px;
+    background: #0a3871;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+    cursor: pointer;
+}
+.cripto .textBut1 {
+    position: static;
+    width: 280px;
+    height: 19px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #fff;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 8px;
+}
+.descripto {
+    display: flex;
+    flex-direction: flex-start;
+    padding: 24px;
+    position: static;
+    width: 328px;
+    height: 67px;
+    left: 352px;
+    top: 0px;
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 24px;
+    cursor: pointer;
+}
+.copiar {
+    display: none;
+    justify-content: center;
+    padding: 24px;
+    position: static;
+    width: 328px;
+    height: 67px;
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 29px 24px;
+    cursor: pointer;
+}
+.descripto .textBut2 {
+    position: static;
+    width: 280px;
+    height: 19px;
+    left: 24px;
+    top: 24px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #0a3871;
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 8px;
+}
+.inportant {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 252px;
+    height: 18px;
+    left: 240px;
+    top: 851px;
+} 
+.msn {
+    position: static;
+    width: 228px;
+    height: 18px;
+    left: 24px;
+    top: 0px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+
+    color: #495057;
+
+    opacity: 0.8;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0;
+    margin: 0px 8px;
+}
+.retangulo {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+    align-items: center;
+
+    background: #fff;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+.backImage {
+    
+    width: 336px;
+    height: 304px;
+    
+    background-image: url(images/pesquisar.svg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.input2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 336px;
+    height: 122px;
+
+}
+.msn2 {
+    width: 336px;
+    height: 58px;
+    display: flex;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    padding: 0 12px;
+
+    text-align: center;
+    color: #343a40;
+
+    
+    
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+
+}
+.msn3 {
+   
+    width: 336px;
+    height: 48px;
+    top: 74px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    padding: 0 12px;
+
+    text-align: center;
+    color: #495057;
+
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 16px 0px;
+
+}
+.areaLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+.logo {
+    position: static;
+    margin: 40px 0px;
+}
+textarea.outdescrip {
+    display: none;
+    outline: none;
+    resize: none;
+    border: none;
+    background: none;
+    margin: 32px;
+    width: 336px;
+    height: 781px;
+    
+    
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+
+    color: #495057;
+}
+.aviso {
+    display: none;
+    position: absolute;
+    font-size: 12px;
+    color: #f00;
+    align-items: center;
+    height: 30px;
+    order: 1;
+    background: #ccc;
+    top: 220px;
+    left: 240px;
+    
+}
+
+/*************Area footer****************/
+footer {
+    text-align: center;
+    color: #ffffff;
+    background-color: #333333;
+    min-width: 1440px;
+}
+.footer--area1 {
+   
+    margin: auto;
+    min-height: 63px;
+    
+    padding-top: 53px;
+    padding-bottom: 35px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+.footer--area2 {
+   
+    margin: auto;
+    min-height: 63px;
+    
+    padding-top: 55px;
+    padding-bottom: 27px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+}
+.footer--area2 a {
+    color: #adc4e2;
+    letter-spacing: 1px;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .container {
+       
+    max-width: 768px;
+    min-width: 0;
+    }
+    .areaLogo {
+        left: 0px;
+    }
+    .mobileFor {
+        height: 1024px;
+    }
+    textarea.inputCript {
+        width: 655px;
+        height: 500px;
+        left: 68px;
+    }
+    textarea.outdescrip {
+        width: 671px;
+        height: 343px;
+        padding: 0;
+        margin: 0;
+    }
+    .backImage {
+        display: none;
+    }
+    .mobileRe {
+        width: 688px;
+        height: 133px;
+        left: 40px;
+        top: 870px;
+        
+        
+    }
+    .input2 {
+        width: 624px;
+        height: 69px;
+    }
+    .inportant {
+        left: 40px;
+        top: 704px;
+    }
+    .msn2 {
+        width: 624px;
+        height: 29px;
+        justify-content: center;
+        margin: 0;
+    }
+    .msn3 {
+        width: 624px;
+        height: 24px;
+        justify-content: center;
+    }
+    .button {
+        left: 10px;
+        top: 734px;
+    }
+    .descripto {
+        margin: 0;
+    }
+    footer {
+        max-width: 768px;
+        min-width: 0;
+        
+    }
+    
+}
+@media (min-width: 320px) and (max-width: 425px) {
+    .mobileRe {
+        width: 317px;
+        height: 186px;
+        margin: -2px -37px -37px -37px;
+        top: 905px;
+        left: 68px;
+    }
+    .msn2 {
+        width: inherit;
+        height: 58px;
+        padding: 0;
+    }
+    .msn3 {
+        width: inherit;
+    }
+    .button {
+        flex-direction: column;
+        left: 28px;
+        width: 328px;
+    }
+    .copiar {
+        margin: 29px 0 29px 0;
+    }
+    .input2 {
+        width: 263px;
+        height: 122px;
+    }
+    .cripto {
+        margin: 0;
+    }
+    .mobileFor{
+        min-height: 1097px;
+    }
+
+    textarea.outdescrip {
+        width: 320px;
+    }
+    textarea.inputCript {
+
+        width: 306px;
+    }
+    .descripto {
+        margin: 26px 0 0 0;
+    }
+    footer {
+        max-width: 425px;
+    }
+    
+}
+@media (max-width: 320px) {
+    .button {
+        left: 0;
+        width: 320px;
+    }
+    .mobileRe {
+        left: 38px;
+    }
+    .copiar {
+        width: 320px;
+    }
+    textarea.inputCript {
+        width: 203px;
+    }
+    .cripto {
+        width: 320px;
+    }
+    .descripto {
+        width: 320px;
+    }
+}
