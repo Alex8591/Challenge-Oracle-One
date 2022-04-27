@@ -42,7 +42,6 @@ textarea.inputCript {
 }
 .input {
     display: flex;
-    flex: 1;
 }
 .button {
     display: flex;
@@ -58,14 +57,12 @@ textarea.inputCript {
     display: flex;
     align-items: flex-start;
     padding: 24px;
-    position: static;
     width: 328px;
     height: 67px;
     background: #0a3871;
     border-radius: 24px;
     flex: none;
     order: 0;
-    flex-grow: 0;
     margin: 0px 24px;
     cursor: pointer;
 }
@@ -82,25 +79,20 @@ textarea.inputCript {
     color: #fff;
     flex: none;
     order: 0;
-    flex-grow: 1;
     margin: 0px 8px;
 }
 .descripto {
     display: flex;
     flex-direction: flex-start;
     padding: 24px;
-    position: static;
     width: 328px;
     height: 67px;
-    left: 352px;
-    top: 0px;
     background: #d8dfe8;
     border: 1px solid #0a3871;
     box-sizing: border-box;
     border-radius: 24px;
     flex: none;
     order: 1;
-    flex-grow: 0;
     margin: 0px 24px;
     cursor: pointer;
 }
@@ -108,7 +100,6 @@ textarea.inputCript {
     display: none;
     justify-content: center;
     padding: 24px;
-    position: static;
     width: 328px;
     height: 67px;
     background: #d8dfe8;
@@ -116,29 +107,21 @@ textarea.inputCript {
     border-radius: 24px;
     flex: none;
     order: 1;
-    flex-grow: 0;
     margin: 29px 24px;
     cursor: pointer;
 }
 .descripto .textBut2 {
-    position: static;
     width: 280px;
     height: 19px;
-    left: 24px;
-    top: 24px;
-
     font-family: sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-
     color: #0a3871;
-
     flex: none;
     order: 0;
-    flex-grow: 1;
     margin: 0px 8px;
 }
 .inportant {
@@ -146,7 +129,6 @@ textarea.inputCript {
     flex-direction: row;
     align-items: center;
     padding: 0px;
-
     position: absolute;
     width: 252px;
     height: 18px;
@@ -154,25 +136,17 @@ textarea.inputCript {
     top: 851px;
 } 
 .msn {
-    position: static;
     width: 228px;
     height: 18px;
-    left: 24px;
-    top: 0px;
-
     font-family: sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 150%;
-
     color: #495057;
-
     opacity: 0.8;
-
     flex: none;
     order: 1;
-    flex-grow: 0;
     margin: 0;
     margin: 0px 8px;
 }
@@ -186,16 +160,13 @@ textarea.inputCript {
     left: 1000px;
     top: 40px;
     align-items: center;
-
     background: #fff;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
 }
-.backImage {
-    
+.backImage { 
     width: 336px;
-    height: 304px;
-    
+    height: 304px;    
     background-image: url(images/pesquisar.svg);
     background-position: center;
     background-size: cover;
@@ -206,7 +177,6 @@ textarea.inputCript {
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-
     width: 336px;
     height: 122px;
 
@@ -220,31 +190,22 @@ textarea.inputCript {
     font-size: 24px;
     line-height: 120%;
     padding: 0 12px;
-
     text-align: center;
     color: #343a40;
-
-    
-    
     align-self: stretch;
-    flex-grow: 0;
     margin: 16px 0px;
 
 }
 .msn3 {
-   
     width: 336px;
     height: 48px;
-    top: 74px;
     font-family: sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     padding: 0 12px;
-
     text-align: center;
     color: #495057;
-
     align-self: stretch;
     flex-grow: 0;
     margin: 16px 0px;
@@ -255,7 +216,6 @@ textarea.inputCript {
     flex-direction: column;
     align-items: flex-start;
     padding: 0;
-
     position: absolute;
     width: 120px;
     height: 48px;
@@ -263,26 +223,21 @@ textarea.inputCript {
     top: 40px;
 }
 .logo {
-    position: static;
     margin: 40px 0px;
 }
 textarea.outdescrip {
     display: none;
     outline: none;
-    resize: none;
     border: none;
     background: none;
     margin: 32px;
     width: 336px;
     height: 781px;
-    
-    
     font-family: sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 150%;
-
     color: #495057;
 }
 .aviso {
@@ -307,10 +262,8 @@ footer {
     min-width: 1440px;
 }
 .footer--area1 {
-   
     margin: auto;
     min-height: 63px;
-    
     padding-top: 53px;
     padding-bottom: 35px;
     font-size: 14px;
@@ -318,10 +271,8 @@ footer {
     justify-content: center;
 }
 .footer--area2 {
-   
     margin: auto;
     min-height: 63px;
-    
     padding-top: 55px;
     padding-bottom: 27px;
     align-items: center;
@@ -337,10 +288,9 @@ footer {
 
 
 @media (min-width: 320px) and (max-width: 768px) {
-    .container {
-       
-    max-width: 768px;
-    min-width: 0;
+    .container {     
+        max-width: 768px;
+        min-width: 0;
     }
     .areaLogo {
         left: 0px;
