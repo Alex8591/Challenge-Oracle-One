@@ -13,7 +13,7 @@ texto.addEventListener("keypress", function(e) {
     
     if(!checarInput(e)) {
       e.preventDefault();
-      aviso.innerHTML = '<img src="images/exclama.svg" />Somente letras minusculas e sem caracteres especiasi';
+      aviso.innerHTML = '<img src="images/exclama.svg" />Somente letras minusculas e sem caracteres especiais';
       aviso.style = 'display: inline-flex;';
       
     } else {
@@ -45,7 +45,7 @@ function criptografar(item) {
     texto2.style.display = 'block';
     image.style.display = 'none';
     mensagem.style.display = 'none';
-    copia.style.display = 'block';
+    copia.style.display = 'flex';
     formMobile.style.height = '1249px';
     retanguloMobile.style = 'min-height: 343px';
 
@@ -64,13 +64,13 @@ function descriptografar(item) {
         
     });
 
-   
+    texto.value = '';
     texto2.innerHTML = newTexto2;
     console.log(newTexto2)
     texto2.style.display = 'block';
     image.style.display = 'none';
     mensagem.style.display = 'none';
-    copia.style.display = 'block';
+    copia.style.display = 'flex';
     formMobile.style.height = '1249px';
     retanguloMobile.style = 'min-height: 343px';
 }
