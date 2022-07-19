@@ -6,8 +6,7 @@ let texto2 = document.querySelector('.outdescrip');
 let image = document.querySelector('.backImage');
 let mensagem = document.querySelector('.input2');
 let copia = document.querySelector('.copiar');
-let retanguloMobile = document.querySelector('.mobileRe');
-let formMobile = document.querySelector('.mobileFor');
+
 
 texto.addEventListener("keypress", function(e) {
     
@@ -46,8 +45,8 @@ function criptografar(item) {
     image.style.display = 'none';
     mensagem.style.display = 'none';
     copia.style.display = 'flex';
-    formMobile.style.height = '1249px';
-    retanguloMobile.style = 'min-height: 343px';
+   
+  
 
     
 }
@@ -71,8 +70,7 @@ function descriptografar(item) {
     image.style.display = 'none';
     mensagem.style.display = 'none';
     copia.style.display = 'flex';
-    formMobile.style.height = '1249px';
-    retanguloMobile.style = 'min-height: 343px';
+    
 }
 
 function copy() {

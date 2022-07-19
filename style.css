@@ -29,6 +29,9 @@ form {
     height: 1024px;
 
 }
+.input {
+    display: flex;
+}
 textarea.inputCript {
     position: absolute;
     width: 440px;
@@ -48,8 +51,8 @@ textarea.inputCript {
 
 
 }
-.input {
-    display: flex;
+textarea.inputCript::placeholder {
+    color: #0a3871;
 }
 .button {
     display: flex;
@@ -68,7 +71,7 @@ textarea.inputCript {
     width: 250px;
     height: 50px;
     background: #0a3871;
-    border-radius: 24px;
+    border-radius: 17px;
     flex: none;
     order: 0;
     cursor: pointer;
@@ -95,7 +98,7 @@ textarea.inputCript {
     background: #d8dfe8;
     border: 1px solid #0a3871;
     box-sizing: border-box;
-    border-radius: 24px;
+    border-radius: 17px;
     flex: none;
     order: 1;
     cursor: pointer;
@@ -109,7 +112,7 @@ textarea.inputCript {
     height: 50px;
     background: #d8dfe8;
     border: 1px solid #0a3871;
-    border-radius: 24px;
+    border-radius: 17px;
     flex: none;
     order: 1;
     margin: 29px 24px;
@@ -141,7 +144,6 @@ textarea.inputCript {
 } 
 .msn {
     width: 228px;
-    height: 18px;
     font-family: sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -169,6 +171,7 @@ textarea.inputCript {
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
 }
+
 .backImage {
     width: 280px;
     height: 252px;
@@ -297,79 +300,31 @@ footer {
 
 
 
-@media (min-width: 320px) and (max-width: 768px) {
-    .container {   
-        max-width: 768px;
-        min-width: 0;
+@media (min-width: 50px) and (max-width: 500px) {
+
+    .all {
+       
+        height: 635px;
     }
-    .areaLogo {
-        left: 0px;
+    .container {
+        width: 244px;
     }
-    .mobileFor {
-        height: 1024px;
-    }
-    textarea.inputCript {
-        width: 655px;
-        height: 500px;
-        left: 68px;
-    }
-    textarea.outdescrip {
-        width: 671px;
-        height: 343px;
-        padding: 0;
-        margin: 0;
-    }
+   
+
     .backImage {
         display: none;
     }
-    .mobileRe {
-        width: 688px;
-        height: 133px;
-        left: 40px;
-        top: 870px;
-        
-        
-    }
-    .input2 {
-        width: 624px;
-        height: 69px;
-    }
-    .inportant {
-        left: 40px;
-        top: 704px;
-    }
-    .msn2 {
-        width: 624px;
-        height: 29px;
-        justify-content: center;
-        margin: 0;
-    }
-    .msn3 {
-        width: 624px;
-        height: 24px;
-        justify-content: center;
-    }
-    .button {
-        left: 10px;
-        top: 734px;
-    }
-    .descripto {
-        margin: 0;
-    }
-    footer {
-        max-width: 768px;
-        min-width: 0;
-        
-    }
+   
     
-}
-@media (min-width: 320px) and (max-width: 425px) {
-    .mobileRe {
-        width: 317px;
-        height: 186px;
-        margin: -2px -37px -37px -37px;
-        top: 905px;
-        left: 68px;
+    .areaLogo  {
+        top: 10px;
+        left: -9px;
+        width: 65px;
+        position: absolute;
+        
+    }
+    .areaLogo img {
+        width: 65px;
     }
     .msn2 {
         width: inherit;
@@ -380,12 +335,18 @@ footer {
         width: inherit;
     }
     .button {
+        top: 296px;
         flex-direction: column;
-        left: 28px;
-        width: 328px;
+        left: 10px;
+        width: 250px;
+    }
+    .inportant {
+        width: 200px;
+        left: 10px;
+        top: 275px;
     }
     .copiar {
-        margin: 29px 0 29px 0;
+        margin: 10px 0 10px 0;
     }
     .input2 {
         width: 263px;
@@ -394,43 +355,109 @@ footer {
     .cripto {
         margin: 0;
     }
-    .mobileFor{
-        min-height: 1097px;
+   
+    .retangulo {
+        left: 9px;
+        top: 430px;
+        width: 225px;
+        height: 200px;
     }
-
     textarea.outdescrip {
-        width: 320px;
+        width: 220px;
     }
     textarea.inputCript {
-
-        width: 306px;
+        top: 80px;
+        left: 12px;
+        width: 220px;
+        height: 200px;
+        font-size: 22px;
     }
     .descripto {
-        margin: 26px 0 0 0;
+        margin: 16px 0 0 0;
     }
     footer {
+        min-width: 0;
         max-width: 425px;
+    }
+     
+    footer .container {
+        flex-direction: column;
+    }
+    .footer--area2 {
+        padding-top: 0;
     }
     
 }
-@media (max-width: 320px) {
-    .button {
-        left: 0;
-        width: 320px;
+@media (min-width: 50px) and (max-width: 320px) {
+  
+    .areaLogo  {
+        top: 10px;
+        left: -9px;
+        position: absolute;
+        width: 65px;
     }
-    .mobileRe {
-        left: 38px;
+    .areaLogo img {
+        width: 65px;
     }
+    
     .copiar {
-        width: 320px;
+        width: 225px;
     }
     textarea.inputCript {
-        width: 203px;
+        top: 80px;
+        left: 12px;
+        width: 220px;
+        height: 200px;
+        font-size: 22px;
+    }
+    textarea.outdescrip {
+        width: 220px;
     }
     .cripto {
-        width: 320px;
+        width: 225px;
     }
     .descripto {
-        width: 320px;
+        width: 225px;
+    }
+    .button {
+        top: 296px;
+        left: 10;
+        width: 227px;
+    }
+    .inportant {
+        width: 200px;
+        left: 10px;
+        top: 275px;
+    }
+    .input2{
+        width: 209px;
+        height: 96px;
+    }
+    .msn {
+        font-size: 9px;
+        width: 200px;
+    }
+    .msn2 {
+        font-size: 18px;
+    }
+    .msn3 {
+        font-size: 13px;
+        margin: 0;
+    }
+    .exclama img {
+        width: 11px;
+    }
+    
+    .retangulo {
+        left: 9px;
+        top: 430px;
+        width: 225px;
+        height: 200px;
+    }
+    footer .container {
+        flex-direction: column;
+    }
+    .footer--area2 {
+        padding-top: 0;
     }
 }
